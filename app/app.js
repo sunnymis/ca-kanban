@@ -5,6 +5,7 @@ angular
     .module('tom', [
         'ngRoute',
         'tom.home',
+        'tom.nav',
         'tom.heat-map'
     ])
     .config(configFunction);
