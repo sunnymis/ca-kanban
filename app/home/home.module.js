@@ -2,5 +2,5 @@
     'use strict';
     
     angular
-        .module('tom.nav',[]);
+        .module('tom.home',[]);
 })(); 

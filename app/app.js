@@ -4,13 +4,14 @@
 angular
     .module('tom', [
         'ngRoute',
-        'tom.nav'
+        'tom.home'
+        
     ])
     .config(configFunction);
 
 configFunction.$inject = ['$routeProvider'];
 
 function configFunction($routeProvider) {
-    $routeProvider.otherwise({redirectTo: '/'});
+    $routeProvider.otherwise({redirectTo: '/home'});
 }
 
