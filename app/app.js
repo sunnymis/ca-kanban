@@ -4,8 +4,8 @@
 angular
     .module('tom', [
         'ngRoute',
-        'tom.home'
-        
+        'tom.home',
+        'tom.nav'
     ])
     .config(configFunction);
 
