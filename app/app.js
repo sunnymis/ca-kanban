@@ -13,3 +13,4 @@ configFunction.$inject = ['$routeProvider'];
 function configFunction($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/'});
 }
+
