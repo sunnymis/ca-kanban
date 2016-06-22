@@ -4,8 +4,8 @@
 angular
     .module('tom', [
         'ngRoute',
-        'tom.home'
-        
+        'tom.home',
+        'tom.heat-map'
     ])
     .config(configFunction);
 
@@ -14,4 +14,3 @@ configFunction.$inject = ['$routeProvider'];
 function configFunction($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/home'});
 }
-
