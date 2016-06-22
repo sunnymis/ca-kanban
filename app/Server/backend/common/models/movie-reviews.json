@@ -1,0 +1,47 @@
+{
+  "name": "MovieReviews",
+  "plural": "MovieReviews",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "movie_name": {
+      "type": "string",
+      "required": true
+    },
+    "imdb": {
+      "type": "number",
+      "required": true
+    },
+    "fandango_stars": {
+      "type": "number",
+      "required": true
+    },
+    "fandango": {
+      "type": "number",
+      "required": true
+    },
+    "rt": {
+      "type": "number",
+      "required": true
+    },
+    "rt_user": {
+      "type": "number",
+      "required": true
+    },
+    "meta": {
+      "type": "number",
+      "required": true
+    },
+    "meta_user": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

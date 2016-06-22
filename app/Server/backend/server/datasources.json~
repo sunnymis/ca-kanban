@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "talyn.asoshared.com",
+    "port": 3306,
+    "url": "mysql://tomkenne:9XMrcWu5CYef@Aa@talyn.asoshared.com/db",
+    "database": "tomkenne_movies",
+    "password": "9XMrcWu5CYef@Aa",
+    "name": "mysql",
+    "user": "tomkenne",
+    "connector": "mysql"
+  }
+}
