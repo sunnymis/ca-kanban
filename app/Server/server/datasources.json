@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "q3vtafztappqbpzn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "mysql://crootgu7ktqlmnlr:mo1kowmw8ondl4rz@q3vtafztappqbpzn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/xce89kva0roqp79w",
+    "database": "xce89kva0roqp79w",
+    "password": "mo1kowmw8ondl4rz",
+    "name": "mysql",
+    "user": "crootgu7ktqlmnlr",
+    "connector": "mysql"
+  }
+}
