@@ -105,6 +105,12 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+#portfolio .skills {
+    font-size: 1.25em;
+  font-weight: 300;
+}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -116,6 +122,9 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em;
   }
+    #portfolio .skills {
+    font-size: 1.75em;
+}
 }
 @media (min-width: 768px) {
   .navbar-fixed-top {
