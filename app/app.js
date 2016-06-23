@@ -6,7 +6,8 @@ angular
         'ngRoute',
         'tom.home',
         'tom.nav',
-        'tom.heat-map'
+        'tom.heat-map',
+        'tom.footer'
     ])
     .config(configFunction);
 
